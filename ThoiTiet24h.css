@@ -1,0 +1,27 @@
+
+.dubao{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+.fontchu{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.map{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+body{
+    font-family: 'Segeo UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.back1{
+    border-bottom: 1px solid #00000040;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.back2{
+    text-align: left;
+    display: inline-block;
+}
