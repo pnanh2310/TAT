@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" href="KhiHau2.css">
+<script src="https://kit.fontawesome.com/498b15ce19.js" crossorigin="anonymous"></script>
+<title>Dự Báo Thời Tiết</title>
+<body>
+<div id="wrapper">
+    <div class="back">
+        <header>
+            <div class="inner-header container">
+                <a href="index.html" id="logo"><i class="fa-solid fa-house"></i></a>
+                <nav>
+                    <ul id="main-menu">
+                        <li><a href="index.html">Trang Chủ</a></li>
+                        <li><a href="ThoiTiet.html">Thời Tiết</a></li>
+                        <li><a href="KhiHau.html">Khí Hậu</a></li>
+                        <li><a href="DuBaoTT.html">Dự Báo Thiên Tai</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div>
+            <div class="back">
+                <div class="menu">
+                    <div>TP. Hà nội</div>
+                    <i class="fa-solid fa-cloud-moon"></i>
+                    <div>25°C</div>
+                </div>
+                <div class="menu">
+                    <div>Đà Nẵng</div>
+                    <i class="fa-solid fa-cloud-moon"></i>
+                    <div>22°C</div>
+                </div>
+                <div class="menu">
+                    <div>TP. HCM</div>
+                    <i class="fa-solid fa-cloud-moon"></i>
+                    <div>20°C</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="search-box">
+        <input type="text" class="search-txt" name="" placeholder="Search.....">
+        <a href="" class="search-btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+    </div>
+    <br>
+    <div>
+        <div class="vungmien">
+            <h3>Khí Hậu</h3>
+        </div>
+        <div class="iframe1">
+            <article>
+                <div>
+                    <div>
+                        <h2>BẢN TIN DỰ BÁO KHÍ HẬU THỜI HẠN NĂM TRÊN PHẠM VI TOÀN QUỐC</h2>
+                        <h3>(TỪ NGÀY 11/3 ĐẾN 10/4 NĂM 2024)</h3>
+                    </div>
+                    <div class="map1">
+                    </div>
+                    <div class="dubao">
+                    
+                    <div>
+                        <p>- Nhiệt độ trung bình: Trên toàn quốc, nhiệt độ trung bình cao hơn so với TBNN từ 1,0-1,50C, riêng khu vực phía Đông Bắc Bộ và Bắc Trung Bộ cao hơn từ 0,5-1,00C so với TBNN cùng thời kỳ.</p>
+                        <p> - Lượng mưa: Trong thời kỳ từ 11/3-10/4/2024, TLM tại các khu vực trên cả nước phổ biến thấp hơn từ 5-15mm, riêng một số nơi ở khu vực Tây Bắc Bắc Bộ, Trung và Nam Trung Bộ thấp hơn từ 15-40mm so với TBNN cùng thời kỳ.</p>
+                        <h4>- Cảnh báo thời tiết nguy hiểm:</h4>
+                        <p>Thời kỳ từ 11/3-10/4/2024, KKL có khả năng hoạt động với cường độ yếu và lệch Đông gây ra nhiều ngày mưa nhỏ, mưa phùn tập trung trong tháng 3/2024. Nắng nóng có khả năng xuất hiện tại khu vực Tây Bắc Bộ, Bắc và Trung Trung Bộ trong nửa cuối tháng 3 và tháng 4/2024; riêng khu vực Nam Bộ và Tây Nguyên tiếp tục xuất hiện nhiều ngày nắng nóng, tập trung ở các tỉnh miền Đông Nam Bộ.</p>
+                        <p>Trên phạm vi toàn quốc tiếp tục xuất hiện các hiện tượng thời tiết nguy hiểm như nắng nóng, sương mù, dông, lốc, sét, mưa đá, có thể ảnh hưởng đến sản xuất và các hoạt động dân sinh.</p>
+                        <h5>- Khả năng tác động đến môi trường, điều kiện sống, cơ sở hạ tầng, các hoạt động kinh tế-xã hội:</h5>
+                        <p>Trong thời kỳ dự báo, KKL có khả năng gây ra gió mạnh, sóng lớn, ảnh hưởng đến các hoạt động hàng hải và đánh bắt hải sản trên biển của ngư dân. Sương mù và mưa nhỏ, mưa phùn có thể gây ảnh hưởng đến các hoạt động giao thông. Dông, lốc, sét, mưa đá có thể ảnh hưởng đến sản xuất và các hoạt động dân sinh. Khu vực Tây Nguyên và Nam Bộ tiếp tục phổ biến ít mưa, nhiều ngày nắng nóng và khô hạn còn kéo dài gây ra tình trạng thiếu nước, nguy cơ cháy nổ rất cao.</p>
+                    </div>
+                </div>
+                <iframe name="kkk" src="" width="100%" height="10px" name="the-iFrame" frameborder="0">
+                </iframe>
+            </article>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script>
+    $(document).ready(function(){
+        $(window).scroll(function(){
+            if ($(this).scrollTop()){
+                $('header').addClass('sticky');
+            }else{
+                $('header').removeClass('sticky');  
+            };
+        });
+    });
+</script>
+</body>
+</html>
