@@ -38,6 +38,13 @@
     align-items: center;
     transition: 0.4s;
 }
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
 .search-txt{
     border: none;
     background: none;
