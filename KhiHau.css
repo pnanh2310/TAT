@@ -172,6 +172,7 @@ ul#main-menu a{
 }
 a{
     color: black;
+    text-decoration: none;
 }
 a:hover{
     text-decoration: underline;
